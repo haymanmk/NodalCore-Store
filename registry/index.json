@@ -1,0 +1,208 @@
+{
+  "version": "1",
+  "updatedAt": "2026-04-20T00:00:00.000Z",
+  "plugins": [
+    {
+      "id": "com.nodalcore.usb-oscilloscope",
+      "name": "USB Oscilloscope",
+      "version": "1.2.0",
+      "description": "Two-channel USB oscilloscope with up to 100 MHz bandwidth. Capture and visualize waveforms in real time with configurable trigger modes.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%230ea5e9%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3EOS%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "device-bridge",
+      "connectionType": "usb",
+      "permissions": [
+        "usb"
+      ],
+      "tags": [
+        "oscilloscope",
+        "waveform",
+        "usb",
+        "measurement"
+      ],
+      "author": {
+        "name": "NodalCore Team"
+      },
+      "repository": "https://github.com/nodalcore/usb-oscilloscope",
+      "manifestUrl": "",
+      "installs": 1284,
+      "updatedAt": "2026-04-10T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.temperature-sensor",
+      "name": "Temperature & Humidity Sensor",
+      "version": "0.9.4",
+      "description": "Supports DHT11, DHT22, and SHT31 sensors over serial. Logs readings at configurable intervals and provides live chart output.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23f97316%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3ETH%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "device-bridge",
+      "connectionType": "serial",
+      "permissions": [
+        "serial"
+      ],
+      "tags": [
+        "temperature",
+        "humidity",
+        "dht22",
+        "serial",
+        "environment"
+      ],
+      "author": {
+        "name": "SensorLab"
+      },
+      "repository": "https://github.com/nodalcore/temp-humidity",
+      "manifestUrl": "",
+      "installs": 3871,
+      "updatedAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.stepper-controller",
+      "name": "Stepper Motor Controller",
+      "version": "2.0.1",
+      "description": "Precise stepper motor control over serial. Supports microstepping, acceleration ramps, and multi-axis coordination for CNC and robotics.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%2322c55e%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3ESM%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "device-bridge",
+      "connectionType": "serial",
+      "permissions": [
+        "serial"
+      ],
+      "tags": [
+        "stepper",
+        "motor",
+        "cnc",
+        "robotics",
+        "serial"
+      ],
+      "author": {
+        "name": "MotionLab"
+      },
+      "repository": "https://github.com/nodalcore/stepper-controller",
+      "manifestUrl": "",
+      "installs": 652,
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.ble-heart-rate",
+      "name": "BLE Heart Rate Monitor",
+      "version": "1.0.3",
+      "description": "Connects to any Bluetooth LE heart rate monitor (GATT standard). Streams BPM and RR intervals with configurable alert thresholds.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23ec4899%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3EHR%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "device-bridge",
+      "connectionType": "bluetooth",
+      "permissions": [
+        "bluetooth"
+      ],
+      "tags": [
+        "ble",
+        "heart-rate",
+        "biometrics",
+        "bluetooth",
+        "health"
+      ],
+      "author": {
+        "name": "BioSense"
+      },
+      "repository": "https://github.com/nodalcore/ble-heart-rate",
+      "manifestUrl": "",
+      "installs": 2109,
+      "updatedAt": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.can-bus-analyzer",
+      "name": "CAN Bus Analyzer",
+      "version": "1.1.0",
+      "description": "Decode and inspect CAN bus frames from USB-CAN adapters. Filter by arbitration ID, log to CSV, and decode DBC message definitions.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%236366f1%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3ECA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "device-bridge",
+      "connectionType": "usb",
+      "permissions": [
+        "usb"
+      ],
+      "tags": [
+        "can-bus",
+        "automotive",
+        "usb",
+        "protocol",
+        "decode"
+      ],
+      "author": {
+        "name": "AutoProbe"
+      },
+      "repository": "https://github.com/nodalcore/can-bus-analyzer",
+      "manifestUrl": "",
+      "installs": 415,
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.signal-analyzer",
+      "name": "Signal Analyzer",
+      "version": "0.8.2",
+      "description": "Real-time FFT and spectrogram analysis for any signal source. Configurable window functions, frequency resolution, and export to PNG or CSV.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%238b5cf6%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3ESA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "standalone-tool",
+      "permissions": [],
+      "tags": [
+        "fft",
+        "signal",
+        "spectrogram",
+        "analysis",
+        "standalone"
+      ],
+      "author": {
+        "name": "DSP Works"
+      },
+      "repository": "https://github.com/nodalcore/signal-analyzer",
+      "manifestUrl": "",
+      "installs": 788,
+      "updatedAt": "2026-02-22T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.data-logger",
+      "name": "Data Logger",
+      "version": "1.3.0",
+      "description": "Record data streams from any connected device to SQLite or CSV. Configurable sampling rate, compression, and automatic file rotation.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23eab308%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3EDL%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "standalone-tool",
+      "permissions": [],
+      "tags": [
+        "logging",
+        "sqlite",
+        "csv",
+        "data",
+        "recording",
+        "standalone"
+      ],
+      "author": {
+        "name": "NodalCore Team"
+      },
+      "repository": "https://github.com/nodalcore/data-logger",
+      "manifestUrl": "",
+      "installs": 5212,
+      "updatedAt": "2026-04-18T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.mqtt-dashboard",
+      "name": "MQTT Dashboard",
+      "version": "2.1.0",
+      "description": "Subscribe to MQTT topics, visualize payloads as gauges or charts, and publish messages. Supports TLS and username/password authentication.",
+      "icon": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%2314b8a6%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22monospace%2Csystem-ui%22%20font-size%3D%2222%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3EMQ%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "type": "device-bridge",
+      "connectionType": "mqtt",
+      "permissions": [
+        "network"
+      ],
+      "tags": [
+        "mqtt",
+        "iot",
+        "dashboard",
+        "tcp",
+        "network"
+      ],
+      "author": {
+        "name": "IotBridge"
+      },
+      "repository": "https://github.com/nodalcore/mqtt-dashboard",
+      "manifestUrl": "",
+      "installs": 1673,
+      "updatedAt": "2026-04-05T00:00:00.000Z"
+    }
+  ]
+}

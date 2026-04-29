@@ -225,6 +225,28 @@
       "manifestUrl": "",
       "installs": 16730,
       "updatedAt": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "id": "com.nodalcore.remote-io-dashboard",
+      "name": "Remote IO Dashboard",
+      "version": "2.1.0",
+      "description": "A maintenance tool for Remote IO which supports manipulating its IOs and settings such as IP, MAC, and Baud Rate.",
+      "type": "standalone-tool",
+      "permissions": [
+        "network"
+      ],
+      "tags": [
+        "remote_io",
+        "dashboard",
+        "tcp"
+      ],
+      "author": {
+        "name": "PDO/AEC"
+      },
+      "repository": "https://github.com/haymanmk/remote-io-dashboard.git",
+      "manifestUrl": "",
+      "installs": 16730,
+      "updatedAt": "2026-04-24T00:00:00.000Z"
     }
   ]
 }

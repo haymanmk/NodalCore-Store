@@ -205,33 +205,11 @@
       "updatedAt": "2026-04-05T00:00:00.000Z"
     },
     {
-      "id": "com.nodalcore.sfc-dashboard",
-      "name": "SFC Dashboard",
-      "version": "2.1.0",
-      "description": "A maintenance tool for SFC which supports manipulating its Remote-IO and setting up its environment.",
-      "type": "standalone-tool",
-      "permissions": [
-        "network"
-      ],
-      "tags": [
-        "sfc",
-        "dashboard",
-        "tcp"
-      ],
-      "author": {
-        "name": "PDO/AEC"
-      },
-      "repository": "https://github.com/nodalcore/sfc-dashboard",
-      "manifestUrl": "",
-      "installs": 16730,
-      "updatedAt": "2026-04-24T00:00:00.000Z"
-    },
-    {
       "id": "com.nodalcore.remote-io-dashboard",
       "name": "Remote IO Dashboard",
-      "version": "2.1.0",
+      "version": "0.2.0",
       "description": "A maintenance tool for Remote IO which supports manipulating its IOs and settings such as IP, MAC, and Baud Rate.",
-      "type": "standalone-tool",
+      "type": "device-bridge",
       "permissions": [
         "network"
       ],
@@ -243,10 +221,18 @@
       "author": {
         "name": "PDO/AEC"
       },
+      "artifacts": [
+        {
+          "url": "https://github.com/haymanmk/remote-io-dashboard/releases/download/v0.2.0/remote-io-dashboard-0.2.0.tgz",
+          "integrity": "sha256:bfc7ee56fc10cdee5e437a8175e297b14a44651be033e0340a022ee084d5ac12",
+          "nodeRange": ">=20",
+          "size": 59446
+        }
+      ],
       "repository": "https://github.com/haymanmk/remote-io-dashboard.git",
       "manifestUrl": "",
-      "installs": 16730,
-      "updatedAt": "2026-04-24T00:00:00.000Z"
+      "installs": 1,
+      "updatedAt": "2026-05-08T09:07:56.213Z"
     }
   ]
 }

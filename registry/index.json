@@ -224,9 +224,9 @@
       "artifacts": [
         {
           "url": "https://github.com/haymanmk/remote-io-dashboard/releases/download/v0.2.0/remote-io-dashboard-0.2.0.tgz",
-          "integrity": "sha256:bfc7ee56fc10cdee5e437a8175e297b14a44651be033e0340a022ee084d5ac12",
+          "integrity": "sha256:ce43505d9737137be19f99af41d28a324ff9944cda89b1e8a9b8fca7573e13bb",
           "nodeRange": ">=20",
-          "size": 59446
+          "size": 59447
         }
       ],
       "repository": "https://github.com/haymanmk/remote-io-dashboard.git",
